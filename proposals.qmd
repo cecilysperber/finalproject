@@ -1,0 +1,25 @@
+---
+title: "Project Proposals"
+author: "Cecily Sperber, Libby Prince, and Brandon Pizer"
+format:
+  html:
+    self-contained: true
+execute:
+  echo: true
+---
+
+.
+# Project Proposals - Cecily Sperber
+```{r}
+
+```
+
+# Project Proposals - Libby Prince
+```{r}
+
+```
+
+# Project Proposals - Brandon Pizer
+```{r}
+
+```
