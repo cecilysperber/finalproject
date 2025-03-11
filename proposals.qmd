@@ -9,17 +9,45 @@ execute:
 ---
 
 .
-# Project Proposals - Cecily Sperber
-```{r}
+Project Proposals - Cecily Sperber
 
-```
+Idea One
+1. Title
+Impacts of Recycling Knowledge on Contamination Rates
 
-# Project Proposals - Libby Prince
-```{r}
+2. Justification
 
-```
 
-# Project Proposals - Brandon Pizer
-```{r}
+3. Hypothesis
+Higher levels of public knowledge about recycling standards are associated with lower contamination rates in recycling waste systems. 
 
-```
+4. Methods
+To gather data for this project we would use datasets from EPA recycling surveys and the UK Department of Environment, Food and Rural Affairs Waste and Recycling Statistics. The spatial scale will include national data from the EPA (United States) and DEFRA (Uk). The temporal scale will cover the most recent 5-10 years of available data to analyze trends over time. We will conduct a corelation analysis and possibly a time series analysis. 
+
+5. Expected Outcomes 
+
+
+Idea Two
+1. Title
+
+
+2. Justification
+
+
+3. Hypothesis
+
+
+4. Methods
+
+
+5. Expected Outcomes 
+
+
+
+
+Project Proposals - Libby Prince
+
+
+
+
+Project Proposals - Brandon Pizer
