@@ -42,8 +42,73 @@ bibliography: references.bib
 
 
 # Project Proposals - Libby Prince
+# Idea One
+1. Title -
+
+
+2. Justification -
+
+
+3. Hypothesis -
+
+
+4. Methods -
+
+
+5. Expected Outcomes -
+
+
+# Idea Two
+1. Title -
+
+
+2. Justification -
+
+
+3. Hypothesis -
+
+
+4. Methods -
+
+
+5. Expected Outcomes -
 
 
 
 
 # Project Proposals - Brandon Pizer
+# Idea One
+1. Title -
+
+
+2. Justification -
+
+
+3. Hypothesis -
+
+
+4. Methods -
+
+
+5. Expected Outcomes -
+
+
+# Idea Two
+1. Title -
+
+
+2. Justification -
+
+
+3. Hypothesis -
+
+
+4. Methods -
+
+
+5. Expected Outcomes -
+
+
+
+
+# APA Citations

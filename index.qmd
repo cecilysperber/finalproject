@@ -1,11 +1,12 @@
 ---
 title: ESS 330 Project Proposals
 authors:
-  - name: Norah Jones
+  - name: 
     affiliation: The University
     roles: writing
     corresponding: true
 bibliography: references.bib
+csl: apa.csl
 ---
 
 ## Section
