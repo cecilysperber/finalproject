@@ -6,48 +6,44 @@ format:
     self-contained: true
 execute:
   echo: true
+bibliography: references.bib
 ---
 
-.
-Project Proposals - Cecily Sperber
 
-Idea One
-1. Title
-Impacts of Recycling Knowledge on Contamination Rates
+# Project Proposals - Cecily Sperber
+# Idea One
+1. Title - Impacts of Recycling Knowledge on Contamination Rates
 
-2. Justification
+2. Justification - Proper recycling pactices are cruical for effective waste management and environmental sustainability. A large portion of the population lack the sufficent knowledge about recycling practices which leads to high contamination rates in recycling waste systems. A study done by @rosenthal2021effects found that tailoring information can complement physical changes to promote proenvironmental actions by people. Another study by @avadi2022trace found that repeated application of properly recycling agricutlural waste can dramtically boost contaminantion levels. 
 
+3. Hypothesis - Higher levels of public knowledge about recycling standards are associated with lower contamination rates in recycling waste systems. 
 
-3. Hypothesis
-Higher levels of public knowledge about recycling standards are associated with lower contamination rates in recycling waste systems. 
+4. Methods - To gather data for this project we would use datasets from EPA recycling surveys and the UK Department of Environment, Food and Rural Affairs Waste and Recycling Statistics. The spatial scale will include national data from the EPA (United States) and DEFRA (Uk). The temporal scale will cover the most recent 5-10 years of available data to analyze trends over time. We will conduct a corelation analysis and possibly a time series analysis. 
 
-4. Methods
-To gather data for this project we would use datasets from EPA recycling surveys and the UK Department of Environment, Food and Rural Affairs Waste and Recycling Statistics. The spatial scale will include national data from the EPA (United States) and DEFRA (Uk). The temporal scale will cover the most recent 5-10 years of available data to analyze trends over time. We will conduct a corelation analysis and possibly a time series analysis. 
-
-5. Expected Outcomes 
+5. Expected Outcomes - We expect that regions with higher public knowledge of recycling methods will have significantly lower contamination rates in recycling waste systems. This is important because high contamination rates reduce efficiency of recycling programs, increase costs and can lead to more landfill. 
 
 
-Idea Two
-1. Title
+# Idea Two
+1. Title -
 
 
-2. Justification
+2. Justification -
 
 
-3. Hypothesis
+3. Hypothesis -
 
 
-4. Methods
+4. Methods -
 
 
-5. Expected Outcomes 
+5. Expected Outcomes -
 
 
 
 
-Project Proposals - Libby Prince
+# Project Proposals - Libby Prince
 
 
 
 
-Project Proposals - Brandon Pizer
+# Project Proposals - Brandon Pizer
