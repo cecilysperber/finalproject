@@ -43,7 +43,7 @@ bibliography: references.bib
 
 # Project Proposals - Libby Prince
 # Idea One
-1. Title -
+1. Title - testing
 
 
 2. Justification -
