@@ -7,6 +7,21 @@ format:
 execute:
   echo: true
 bibliography: references.bib
+
+Cecily Sperber
+affiliation: CSU
+roles: writing
+corresponding: true
+
+Libby Prince
+affiliation: CSU
+roles: writing
+corresponding: false
+
+Brandon Pizer
+affiliation: CSU
+roles: writing
+corresponding: false
 ---
 
 
