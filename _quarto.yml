@@ -3,9 +3,6 @@ project:
   
 output-dir: docs 
 
-manuscript:
-  article: proposals.qmd
-
 format:
   html:
     comments:
