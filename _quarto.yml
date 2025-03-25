@@ -4,7 +4,7 @@ project:
 output-dir: docs 
 
 manuscript:
-  article: index.qmd
+  article: proposals.qmd
 
 format:
   html:
