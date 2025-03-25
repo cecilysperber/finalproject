@@ -51,36 +51,27 @@ bibliography: references.bib
 
 # Project Proposals - Libby Prince
 # Idea One
-1. Title - testing
+1. Title - Effects of Habitat Fragmentation on Pollinator Diversity
 
+2. Justification - Pollinators are essential for biodiversity and agricultural productivity, yet their populations are declining due to habitat fragmentation (@potts2010global). Habitat fragmentation occurs when large habitats are divided into smaller, isolated patches, disrupting resources such as food and nesting sites and leading to declines in pollinator abundance and diversity. (@hadley2012effects). Understanding these effects is crucial for conservation efforts because as pollinator populations decline, they directly affect food security and biodiversity. This study aims to assess the relationship between habitat fragmentation and pollinator diversity across different ecosystems, providing insights into habitat management and restoration strategies.
 
-2. Justification -
+3. Hypothesis - Habitat fragmentation reduces the diversity and abundance of pollinators by limiting food resources, decreasing habitat connectivity, and disrupting pollination networks.
 
+4. Methods - A way to research and analyze this hypothesis is to use peer-reviewed studies focusing on habitat fragmentation and pollinator diversity. One resource that we could use is the United States Geological Survey (USGS) Pollinator Research Program, which provides data on pollinator populations, distribution, and environmental stressors. Another dataset could come from  NASA’s Land Cover and Land Use Change (LCLUC) program, which assess habitat fragmentation and land use changes. By integrating these datasets, we can assess how pollinator diversity is affected by habitat fragmentation in different ecosystems. A statistical analysis could then be used to estimate effect sizes and identify patterns.
 
-3. Hypothesis -
-
-
-4. Methods -
-
-
-5. Expected Outcomes -
+5. Expected Outcomes - Habitat fragmentation is likely to have a negative impact on pollinator diversity, leading to a decrease in species richness and abundance. Understanding this issue is important because pollinators play an essential role in biodiversity and ecosystem stability. By identifying trends across different ecosystems, the findings could provide insights for conservation efforts to support pollinator resilience in fragmented habitats.
 
 
 # Idea Two
-1. Title -
+1. Title - Impact of Climate Change on Bird Population Dynamics in the Rocky Mountains
 
+2. Justification - Rising temperatures and altered weather patterns are affecting bird habitats, influencing food availability, migration patterns, and breeding success (@la2014role). Mountain ecosystems, in particular, are more vulnerable to climate change because species are forced to shift to higher elevations to maintain suitable conditions. These shifts can lead to increased competition, habitat loss, and population declines. Understanding how climate variables influence bird population dynamics in the Rocky Mountains is crucial for developing effective mitigation strategies. Long-term monitoring of bird populations and climate data can reveal how species respond to environmental changes, providing valuable insights for future land management and conservation efforts (@rushing2020migratory).
 
-2. Justification -
+3. Hypothesis - Rising temperatures and altered precipitation patterns will result in shifts in bird species and declines in cold-adapted or climate-sensitive species.
 
+4. Methods - To assess the impact of climate change on bird populations, we can first use bird population data from the North American Breeding Bird Survey (BBS), which provides long-term observations of species abundance and distribution (https://www.pwrc.usgs.gov/BBS/). We can filter this dataset for bird populations in the Rocky Mountains over 10-20 years to track population trends and species distributions across this region. The second dataset will come from NOAA and show temperature and precipitation records. We can then filter this climate data by year and region to assess how climate variables (temperature and precipitation) have changed over the selected time period. Using both datasets, we can conduct statistical analysis to examine the relationship between climate variables and bird population trends. This will allow us to better understand how climate change influences bird populations in the region.
 
-3. Hypothesis -
-
-
-4. Methods -
-
-
-5. Expected Outcomes -
-
+5. Expected Outcomes - We expect to find that climate change, particularly warming temperatures and precipitation, influences bird population trends in the Rocky Mountains. These changes may lead to shifts in species composition, with some species declining due to habitat loss or altered migration patterns. The results will inform conservation strategies to protect vulnerable bird species in a changing climate. 
 
 
 
