@@ -1,27 +1,24 @@
 ---
 title: "Project Proposals"
-author: "Cecily Sperber, Libby Prince, and Brandon Pizer"
+authors: 
+  - name: Cecily Sperber
+    affilication: Colorado State University
+    roles: coding
+    corresponding: true 
+- name: Libby Prince
+    affilication: Colorado State University
+    roles: writing 
+    corresponding: false
+- name: Brandon Pizer
+    affilication: Colorado State University
+    roles: research & data collection 
+    corresponding: false
 format:
   html:
     self-contained: true
 execute:
   echo: true
 bibliography: references.bib
-
-Cecily Sperber
-affiliation: CSU
-roles: writing
-corresponding: true
-
-Libby Prince
-affiliation: CSU
-roles: writing
-corresponding: false
-
-Brandon Pizer
-affiliation: CSU
-roles: writing
-corresponding: false
 ---
 
 
