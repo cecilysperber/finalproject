@@ -1,5 +1,7 @@
 project:
   type: manuscript
+  
+output-dir: docs 
 
 manuscript:
   article: index.qmd
@@ -16,6 +18,7 @@ format:
 
 execute:
   freeze: true
+  
 
 
 
