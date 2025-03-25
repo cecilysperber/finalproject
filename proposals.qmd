@@ -1,12 +1,25 @@
 ---
 title: "Project Proposals"
-author: "Cecily Sperber, Libby Prince, and Brandon Pizer"
+authors: 
+  - name: Cecily Sperber
+    affilication: Colorado State University
+    roles: coding
+    corresponding: true 
+  - name: Libby Prince
+    affilication: Colorado State University
+    roles: writing 
+    corresponding: false
+  - name: Brandon Pizer
+    affilication: Colorado State University
+    roles: research & data collection 
+    corresponding: false
 format:
   html:
     self-contained: true
 execute:
   echo: true
 bibliography: references.bib
+
 ---
 
 
@@ -26,18 +39,13 @@ bibliography: references.bib
 # Idea Two
 1. Title - Impacts of Forest Management Practices on Biodiversity in Temperate Forests
 
-
 2. Justification - Forests are a crucial ecosystem for biodiversity conservation but forest management practices such as logging and thinning have significant effects on the composition of forest ecosystems. Specifically in temperate forests, these management practices are often used to improve timber production or fire suppression but their effects on biodiversity are not well understood. A study by @sing2018review showed that a diversity of management practices is needed to maintain multiple ecosystem services and biodiversity. Another study by @bernes2015impact believes that active management can be relevant where lost ecological values need to be restore therefore conserving biodiversity. 
-
 
 3. Hypothesis - Forests managed with selective logging or controlled burns have higher biodiversity than forests that are clear-cut or unmanaged, due to the retention of habitat diversity. 
 
-
 4. Methods - To gather data for this project we could use datasets from the Global Forest Watch, USDA Forest Service, Forest Biodiversity Network, and/or Global Biodiversity Information Facility. The scope of the study will focus on temperate forests in North America, Europe, and/or Mexico. We will conduct a regression analysis to test for significant differences in biodiversity between management types. 
 
-
 5. Expected Outcomes - We expect that forests managed with selective logging or controlled burns will show high biodiversity compared to forests that have been clear-cut or unmanaged. This study can provide use with valuable information for developing forest management practices that balance both biodiversity conservation and timber production/fire risk management. 
-
 
 
 
@@ -78,36 +86,27 @@ bibliography: references.bib
 
 # Project Proposals - Brandon Pizer
 # Idea One
-1. Title -
+1. Title - Identifying Correlations between land-use change and habitat fragmentation through mountain lion activity
 
+2. Justification - humans have been a reckoning force on the Earth, especially when it comes to how we use/exploit the land. As we expand our reach through agricultural and infrastructural endeavors, ecosystems are damaged and reduced in size. @nagendra2004pattern discusses research around human land-use changes and how they are causing global change. This had me thinking about what animals could be at risk from human land-use. Mountain lions are an interesting study when it comes to this. Since they are a pinnacle of mountainous food webs, their habitat degradation could have many affects on the ecosystem says @riley2014individual. It is worth quantifying how humans affect ecosystem food webs.
 
-2. Justification -
+3. Hypothesis - Places with dense road networks and higher populations will cause more habitat fragmentation among Puma concolor (mountain lions)
 
+4. Methods - study mountain lion data (movements, counts, deaths) and how they correlate between areas of high human activity (i.e. urban to suburban) to places of low human activity (i.e. national parks and rural areas). This study will need land cover data (Google Earth Engine, MODIS) over a period of time, mountain lion tracking data (LTER), and human census data. We will conduct analysis and hopefully fit a model that shows us if their is a positive, negative, or no correlation between land-use change and habitat fragmentation.
 
-3. Hypothesis -
-
-
-4. Methods -
-
-
-5. Expected Outcomes -
+5. Expected Outcomes - we should expect that human-dense areas are going to cause higher rates of fragmentation among mountain lions. Exploring this topic will allow us to find better ways to preserve territorial habitats and hopefully spark initivtive to save other species that suffer from the same issue.
 
 
 # Idea Two
-1. Title -
+1. Title - How does pollinator abundance affect agricultural production?
 
+2. Justification - pollinators offer humans a priceless ecosystem service, one that would be detrimental if lost. As humans continue to influence climate change, biodiversity loss has been an important issue in light of pollinator conservation. Now, we are more dependent on pollinators than we have ever been says @aizen2008long. Pollinators have large impacts on the economy as well: @allen1998potential states recent crop failures and adverse seasonal weather have been detrimental to the agricultural economy. To sustain an overgrowing population, we need to understand how systematically pollinators affect crop yields.
 
-2. Justification -
+3. Hypothesis - areas of higher pollinator presence are going to have larger and more bountiful yields than areas with low to no pollinator presence.
 
+4. Methods - to test this hypothesis, we need to find pollinator data (USDA and LTER) that includes variables such as abundance, species, and population growth/loss. For agricultural data, we can use USDA yield statistics and location data to join the pollinator data. The techniques we will use will be correlation analysis and ML regression models.
 
-3. Hypothesis -
-
-
-4. Methods -
-
-
-5. Expected Outcomes -
-
+5. Expected Outcomes - areas with better pollination will show greater crop growth due to higher fertilization rates. Being able to understand the dynamic between crop and pollinator is beneficial to the agricultural industry and food prodcution around the world.
 
 
 
