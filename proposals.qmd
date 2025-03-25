@@ -92,12 +92,6 @@ bibliography: references.bib
 
 3. Hypothesis - Places with dense road networks and higher populations will cause more habitat fragmentation among Puma concolor (mountain lions)
 
-2. Justification - humans have been a reckoning force on the Earth, especially when it comes to how we use/exploit the land. As we expand our reach through agricultural and infrastructural endeavors, ecosystems are damaged and reduced in size. @nagendra2004pattern discusses research around human land-use changes and how they are causing global change. This had me thinking about what animals could be at risk from human land-use. Mountain lions are an interesting study when it comes to this. Since they are a pinnacle of mountainous food webs, their habitat degradation could have many affects on the ecosystem says @riley2014individual. It is worth quantifying how humans affect ecosystem food webs.
-
-4. Methods - study mountain lion data (movements, counts, deaths) and how they correlate between areas of high human activity (i.e. urban to suburban) to places of low human activity (i.e. national parks and rural areas). This study will need land cover data (Google Earth Engine, MODIS) over a period of time, mountain lion tracking data (LTER), and human census data. We will conduct analysis and hopefully fit a model that shows us if their is a positive, negative, or no correlation between land-use change and habitat fragmentation.
-
-3. Hypothesis - Places with dense road networks and higher populations will cause more habitat fragmentation among Puma concolor (mountain lions)
-
 4. Methods - study mountain lion data (movements, counts, deaths) and how they correlate between areas of high human activity (i.e. urban to suburban) to places of low human activity (i.e. national parks and rural areas). This study will need land cover data (Google Earth Engine, MODIS) over a period of time, mountain lion tracking data (LTER), and human census data. We will conduct analysis and hopefully fit a model that shows us if their is a positive, negative, or no correlation between land-use change and habitat fragmentation.
 
 5. Expected Outcomes - we should expect that human-dense areas are going to cause higher rates of fragmentation among mountain lions. Exploring this topic will allow us to find better ways to preserve territorial habitats and hopefully spark initivtive to save other species that suffer from the same issue.
@@ -108,13 +102,7 @@ bibliography: references.bib
 
 2. Justification - pollinators offer humans a priceless ecosystem service, one that would be detrimental if lost. As humans continue to influence climate change, biodiversity loss has been an important issue in light of pollinator conservation. Now, we are more dependent on pollinators than we have ever been says @aizen2008long. Pollinators have large impacts on the economy as well: @allen1998potential states recent crop failures and adverse seasonal weather have been detrimental to the agricultural economy. To sustain an overgrowing population, we need to understand how systematically pollinators affect crop yields.
 
-2. Justification - pollinators offer humans a priceless ecosystem service, one that would be detrimental if lost. As humans continue to influence climate change, biodiversity loss has been an important issue in light of pollinator conservation. Now, we are more dependent on pollinators than we have ever been says @aizen2008long. Pollinators have large impacts on the economy as well: @allen1998potential states recent crop failures and adverse seasonal weather have been detrimental to the agricultural economy. To sustain an overgrowing population, we need to understand how systematically pollinators affect crop yields.
-
 3. Hypothesis - areas of higher pollinator presence are going to have larger and more bountiful yields than areas with low to no pollinator presence.
-
-4. Methods - to test this hypothesis, we need to find pollinator data (USDA and LTER) that includes variables such as abundance, species, and population growth/loss. For agricultural data, we can use USDA yield statistics and location data to join the pollinator data. The techniques we will use will be correlation analysis and ML regression models.
-
-5. Expected Outcomes - areas with better pollination will show greater crop growth due to higher fertilization rates. Being able to understand the dynamic between crop and pollinator is beneficial to the agricultural industry and food prodcution around the world.
 
 4. Methods - to test this hypothesis, we need to find pollinator data (USDA and LTER) that includes variables such as abundance, species, and population growth/loss. For agricultural data, we can use USDA yield statistics and location data to join the pollinator data. The techniques we will use will be correlation analysis and ML regression models.
 
