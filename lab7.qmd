@@ -1,0 +1,25 @@
+---
+title: "lab7"
+editor: visual
+---
+
+
+```{r}
+# Load necessary library
+library(dplyr)
+
+# Read your CSV file
+data <- read.csv("data/treecover_loss_by_region_ha.csv")
+
+# Filter the data
+cleaned_data <- data %>%
+  filter(iso == "USA", year >= 2001, year <= 2016)
+
+# Check the cleaned data
+head(cleaned_data)
+
+# Optional: If you want to save the cleaned data to a new CSV
+write.csv(cleaned_data, "cleaned_data.csv", row.names = FALSE)
+
+```
+
