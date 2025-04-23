@@ -18,7 +18,7 @@ format:
     self-contained: true
 execute:
   echo: true
-bibliography: references.bib
+bibliography: ref.bib
 ---
 
 
@@ -28,8 +28,9 @@ This project examines the connection between carbon dioxide emissions and tree c
 
 # Background
 Deforestation and forest degradation are major contributors to climate change because they release carbon stored in trees. Forests serve as vital carbon sinks, according to @bastin2019global sequestering CO₂ from the atmosphere through photosynthesis). When trees are cut down, burned, or otherwise destroyed, this stored carbon is released into the atmosphere, contributing to the greenhouse effect and rising global temperatures states @curtis2018classifying. As one of the top carbon-emitting countries, the United States has a responsibility to mitigate emissions through land management and forest conservation.
-Climate change is one of the most pressing global issues of the 21st century. While there are many causes, the rise in carbon dioxide (CO₂) in the atmosphere is known to be the main driver of human-caused climate change (EPA, 2023). Carbon dioxide is a greenhouse gas, meaning it traps heat in the atmosphere. This leads to warmer global temperatures, changes in weather patterns, and rising sea levels. To understand these impacts, scientists study the carbon cycle, especially the role of forests, which act as a natural carbon sink by absorbing CO₂. However, when forests are destroyed or degraded, their ability to absorb carbon is reduced, and often, carbon is sent back into the atmosphere (Pan et al., 2011).
-This project examines the connection between carbon dioxide emissions and tree cover loss in the United States from 2001 to 2016. We focus on whether yearly forest loss is related to changes in CO₂ levels in the atmosphere. The goal is to better understand how deforestation affects the carbon balance in a country that significantly influences global emissions and conservation. 
+Forest loss in the U.S. is driven by a combination of human activities and natural events. Factors such as logging, urban development, wildfires, and pests all contribute to annual changes in tree cover. These changes raise questions about whether losing forests in the U.S. clearly affects carbon dioxide levels in the air. While fossil fuel combustion is the primary source of U.S. emissions, the impact of land use change, including deforestation, is often overlooked in national climate discussions.
+Understanding the relationship between forest cover and CO₂ is important for evaluating the climate impacts of land-use decisions. With its extensive and diverse forest ecosystems, the U.S. has the potential to reduce emissions and increase carbon storage through conservation and reforestation efforts. Monitoring cover loss and how it affects carbon levels is important so we can create better climate policies and reach national climate goals.
+
 
 # Motivation
 The United States is one of the world's largest carbon emitters and large areas of forested land. Deforestation and land-use changes have contributed significantly to CO₂ emissions, making up about a third of global emissions from 1750 to 2011 and 12% between 2000 and 2009 according to @adopted2014climate. In the U.S., the climate effects of forest loss are often less noticeable or prioritized than in tropical regions. While deforestation in areas like the Amazon is a major focus in global environmental discussions, the impact of forest loss in the U.S. is less frequently studied. This project aims to explore how forest loss in the U.S. influences CO₂ emissions and the country's carbon balance.
@@ -46,11 +47,11 @@ library(usethis)
 
 # Data
 For our project, we worked with two datasets: one containing carbon emissions data and another with tree cover loss data. Below, we describe the origin, cleaning, and manipulation of the data, followed by three visualizations that help us explore potential patterns
-We used global atmospheric carbon dioxide (CO₂) data from the National Oceanic and Atmospheric Administration (NOAA). This dataset included monthly values of CO₂ concentrations, specifically the "Seasonally Adjusted CO2 Fit (ppm)" column. And for the Tree Cover Loss Data we collected the dataset from Global Forest Watch and it includes worldwide estimates of annual forest cover in hectares. 
+We used global atmospheric carbon dioxide (CO₂) data from the National Oceanic and Atmospheric Administration (NOAA) @noaa_co2_2025. This dataset included monthly values of CO₂ concentrations, specifically the "Seasonally Adjusted CO2 Fit (ppm)" column. And for the Tree Cover Loss Data we collected the dataset from Global Forest Watch @gfw_tcl_2025 and it includes worldwide estimates of annual forest cover in hectares. 
 ```{r}
-carbon_data <- read_csv("C:/ESS330/lab7/data/carbon.csv")
+carbon_data <- read_csv("data/carbon.csv")
 
-treecover_data <- read_csv("C:/ESS330/lab7/data/treecover.csv")
+treecover_data <- read_csv("data/treecover.csv")
 ```
 
 # Methods 
@@ -171,3 +172,21 @@ ggplot() +
 ## Graph 3: Correlation of Tree Cover Loss and CO₂ Emissions (2001-2016)
 Graph 3 explores the potential relationships between forest loss and atmospheric carbon levels. We created a dual-axis graph for both tree cover loss (scaled to match the range of CO₂) and CO₂ levels which are plotted together by year. This visualization helps us visually assess whether higher deforestation years might be associated with increased carbon emissions.
 
+
+# Results
+## Shapiro Wilk Normality Test
+Atmospheric CO₂ concentration data did not significantly deviate from a normal distribution (W = 0.971, p = 0.8545), indicating that the assumption of normality was met. This supports the use of parametric tests like Pearson’s correlation when analyzing the relationship between CO₂ and tree cover loss.
+
+## Pearson’s Correlation Test 
+There was a slight, non-significant negative relationship between tree cover loss and atmospheric CO₂ levels in the U.S. from 2001 to 2016 (r = –0.193, t(14) = –0.74, p = 0.473, 95% CI: –0.63 to 0.33). This suggests that, while a slight negative correlation exists, it is not strong enough to support a significant relationship between deforestation and CO₂ emissions. Other factors likely play a more significant role in driving CO₂ trends during this period
+
+
+# Discussion and Conclusion 
+The primary objective of this study was to investigate whether a relationship exists between atmospheric CO₂ concentrations and tree cover loss in the United States from 2001 to 2016. According to @houghton2018negative, forest growth provides negative emissions on carbon.  We hypothesized that greater tree cover loss would correlate with increased atmospheric CO₂ levels, given that deforestation reduces the capacity of forests to sequester carbon, potentially contributing to elevated CO₂ concentrations. @li2022deforestation believes drofestation driven climate change is much higher than fossil fuel emissions. 
+Although the statistical analysis did not reveal a significant relationship between tree cover loss and atmospheric CO₂ levels, the visual representation of the data suggests a potential trend. Specifically, the graph showed increased tree cover loss in 2004 and a decline in 2008, while CO₂ levels continued to rise steadily throughout the study period. This may imply a visual correlation; however, as @oneill2009burningembers argues, climate change visualizations can carry connotative meanings that may misrepresent the actual data relationships. In our case, although the visual might suggest an association, the lack of statistical significance indicates that the observed pattern is not robust enough to support a definitive conclusion.
+Several factors may explain the discrepancy between the visual trend and the statistical findings. One plausible explanation is that the scale of tree cover loss within the U.S. was insufficient to produce a detectable impact on national CO₂ concentrations. Furthermore, other dominant sources of carbon emissions—such as fossil fuel combustion, industrial processes, and transportation—likely played a much larger role in driving atmospheric CO₂ levels during this timeframe.
+It is also important to recognize that atmospheric CO₂ reflects cumulative global emissions and responds to long-term trends. Consequently, tree cover loss in a single country over a 15-year period may not produce an immediate or measurable effect on global CO₂ concentrations.
+@houghton2003revised emphasizes that uncertainties in estimating carbon flux are often influenced by variations in deforestation rates and the inherent challenges of accurately measuring land-use changes. These uncertainties contribute to inconsistencies in global carbon flux models and complicate efforts to establish a direct relationship between tree cover loss and CO₂ concentrations, particularly at regional scales.
+Future research could benefit from extending the temporal scope of the analysis, incorporating higher-resolution regional data, and accounting for additional variables such as reforestation efforts, fossil fuel consumption, and land management practices. Such comprehensive approaches would enhance our understanding of the complex interactions between deforestation and atmospheric CO₂ dynamics.
+
+# References
